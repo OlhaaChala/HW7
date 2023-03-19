@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+header {
+    background-color: #EEEFF1;
+    padding: 80px 0 150px 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;   
+}
+
+.menu-item {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.25px;
+    letter-spacing: 0.1em;
+    color: #000;
+    display: inline-block;
+    padding-right: 42px;
+}
+
+.main-box {
+    background-color: #EEEFF1;
+}
+
+.write-me-wrapper {
+    padding-bottom: 140px;
+    width: 100%;
+    max-width: 540px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000;
+    text-align: left;
+    margin: 0;
+}
+
+.main-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-top: 60px;
+    padding-bottom: 65px;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #34547A;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    text-decoration: none;
+}
+
+.about {
+    background-color: #FFFFFF;
+}
+
+.about-me {
+    width: 540px;
+    margin: 0 auto;
+    padding-top: 112px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #000000;
+}
+
+.about-me-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: #727272;
+}
+
+.projects-list {
+    background-color: #34547A;
+    padding: 100px 0;
+}
+
+.project-item {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.project-item:last-child {
+    margin-right: 0;
+}
+
+.project-icon-wrapper {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.project-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.project-info {
+    display: inline-block;
+}
+
+.project-count {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.project-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    /* margin: 0; */
+}
