@@ -45,6 +45,11 @@ header {
     padding-right: 42px;
 }
 
+.menu-item:hover {
+    color: #34547A;
+    cursor: pointer;
+}
+
 .main-box {
     background-color: #EEEFF1;
 }
@@ -98,7 +103,7 @@ h1 {
 .about-me {
     width: 540px;
     margin: 0 auto;
-    padding-top: 112px;
+    padding: 110px 0 100px 0;
 }
 
 h2 {
@@ -112,14 +117,13 @@ h2 {
     color: #000000;
 }
 
-.about-me-text {
+.article {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    padding-bottom: 100px;
     color: #727272;
 }
 
@@ -130,11 +134,7 @@ h2 {
 
 .project-item {
     display: inline-block;
-    margin-right: 45px;
-}
-
-.project-item:last-child {
-    margin-right: 0;
+    margin: 0 22px;
 }
 
 .project-icon-wrapper {
@@ -169,4 +169,42 @@ h2 {
     line-height: 26px;
     color: #FFFFFF;
     /* margin: 0; */
+}
+
+.work {
+    padding: 100px 0;
+}
+
+.about-work {
+    width: 540px;
+    margin: 0 auto;
+}
+
+.video {
+    padding-top: 57px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #34547A;
+    padding: 50px 0;
+}
+
+.author-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.create-data {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
